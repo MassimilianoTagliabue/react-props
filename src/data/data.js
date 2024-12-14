@@ -2,7 +2,7 @@ const posts = [
     {
       id: 1,
       title: "Titolo del Post 1",
-      image: 'image1.jpg',
+      image: 'https://picsum.photos/seed/picsum/400/250',
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["html", "css"],
@@ -20,7 +20,7 @@ const posts = [
     {
       id: 3,
       title: "Titolo del Post 3",
-      image: '',
+      image: 'https://picsum.photos/seed/picsum/400/250',
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["js", "php"],
@@ -29,7 +29,7 @@ const posts = [
     {
       id: 4,
       title: "Titolo del Post 4",
-      image: 'image3.jpg',
+      image: 'https://picsum.photos/seed/picsum/400/250',
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["html"],
@@ -38,3 +38,5 @@ const posts = [
   ];
 
 export default posts;
+
+//https://thefix.media/assets/imagePlaceholder.png

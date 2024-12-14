@@ -5,3 +5,28 @@
     
 }
 
+.flex{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: 50%;
+}
+
+@media screen and (max-width:1200px){
+    
+    .container{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width:984px){
+    
+    .col{
+        width: 100%;
+    }
+    
+}

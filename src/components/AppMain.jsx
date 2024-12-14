@@ -7,22 +7,25 @@ function AppMain({ posts }) {
 
     return (
         <main className={style.container}>
-            
-            {posts.map((curPost, index) => {
+            <div className={style.flex}>
+                {posts.map((curPost, index) => {
                     return (
                         <>
-                        <AppCard
-                            title={curPost.title}
-                            image={curPost.image}
-                            content={curPost.content}
-                            tags={curPost.tags}
-                            published={curPost.published}
-                        />
+                            <div className={style.col}>
+                                <AppCard
+                                    title={curPost.title}
+                                    image={curPost.image}
+                                    content={curPost.content}
+                                    tags={curPost.tags}
+                                    published={curPost.published}
+                                />
+                            </div>
                         </>
                     )
-            
+
                 })
-            }
+                }
+            </div>
         </main>
     )
 
