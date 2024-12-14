@@ -7,7 +7,7 @@ function AppMain({ posts }) {
 
     return (
         <main className={style.container}>
-            <div className={style.flex}>
+            <div className="flex">
                 {posts.map((curPost, index) => {
                     return (
                         <>

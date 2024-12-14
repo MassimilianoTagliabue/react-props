@@ -16,3 +16,26 @@ body{
 .pad{
   padding: 0 15px;
 }
+
+.flex{
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.html{
+  color: red;
+}
+
+.css{
+  color: blue;
+}
+
+.js{
+
+  color: green;
+}
+
+.php{
+  color: orange;
+}

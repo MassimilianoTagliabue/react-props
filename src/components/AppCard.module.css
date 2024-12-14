@@ -35,3 +35,9 @@
     margin-bottom: 15px;
     
 }
+
+li{
+    list-style: none;
+    padding: 5px ;
+}
+

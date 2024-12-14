@@ -11,6 +11,13 @@ function AppCard ({title,image,content,tags,published}) {
                 </div>
                 <section className="pad">
                     <div className={style.postTitle}>{title}</div>
+                    <ul className="flex">
+                        {tags.map((curTags) => {
+                            return(
+                                <><li className={curTags}>{curTags}</li></>
+                            )
+                        })}
+                    </ul>
                     <div className="mb">{content}</div>
                     <button className={style.btn}>LEGGI DI PIÚ</button>
                 </section>
